@@ -600,19 +600,22 @@ body {
 @media (min-width: 640px) {
 
 	.heading-primary {
-		font-size: 44px;
+		font-size: 50px;
+		line-height: 65px;
 	}
 }
 @media (min-width: 768px) {
 
 	.heading-primary {
-		line-height: 90px;
+		font-size: 65px;
+		line-height: 75px;
 	}
 }
 @media (min-width: 1024px) {
 
 	.heading-primary {
-		font-size: 60px;
+		font-size: 70px;
+		line-height: 80px;
 	}
 }
 @media (max-width: 1024px){
@@ -1294,6 +1297,9 @@ html{
 .overflow-hidden {
 	overflow: hidden;
 }
+.rounded-none {
+	border-radius: 0px;
+}
 .rounded-full {
 	border-radius: 9999px;
 }
@@ -1302,9 +1308,6 @@ html{
 }
 .rounded-sm {
 	border-radius: 0.125rem;
-}
-.rounded-none {
-	border-radius: 0px;
 }
 .border {
 	border-width: 1px;
