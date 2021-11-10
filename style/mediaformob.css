@@ -3,6 +3,19 @@
         font-size:2.5rem;
         line-height: 3rem;
     }
+    header{
+        padding-top: 30px;
+    }
+    .spiral{
+        /* padding: 10px 0px 10px 0px; */
+        height: 130px;
+    }
+    .midbtn{
+        margin-top: 40px;
+    }
+    .heading-primary{
+        padding-bottom: 20px;
+    }
 }
 
 @media (max-width: 480px){
@@ -12,4 +25,7 @@
     .brandimageres2{
         width: 6rem;
     }
+}
+.btn-primary {
+    padding: 8px;
 }
